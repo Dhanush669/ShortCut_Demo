@@ -15,9 +15,16 @@
         android:gravity="center"
         android:layout_margin="20dp"
         android:textSize="40sp"
-        android:textColor="#000000"
+        android:textColor="#A1A1A1"
         android:textStyle="bold"
         >
     </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="video activity"
+        android:onClick="openVideo"
+        >
+    </Button>
 
 </LinearLayout>
